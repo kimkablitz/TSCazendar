@@ -18,6 +18,7 @@
   "homepage": "https://github.com/kimkablitz/TSCazendar#readme",
   "dependencies": {
     "@types/react": "^16.8.23",
+    "@types/react-redux": "^7.1.1",
     "@uifabric/fluent-theme": "^7.0.4",
     "firebase": "^6.3.0",
     "lodash": "^4.17.14",
@@ -30,6 +31,8 @@
     "redux": "^4.0.4",
     "redux-firestore": "^0.8.0",
     "redux-thunk": "^2.3.0",
+    "tslint": "^5.18.0",
+    "tslint-react": "^4.0.0",
     "typescript": "^3.5.3"
   },
   "browserslist": {

@@ -18,7 +18,7 @@ import { Customizer } from 'office-ui-fabric-react';
 import { loadTheme } from 'office-ui-fabric-react/lib/Styling';
 
 //components
-import Login from './components/auth/Login'
+import CreatePost from './components/CreatePost'
 
 const store = createStore(reducers,
   compose(
@@ -74,7 +74,7 @@ ReactDOM.render(
     <Customizer {...FluentCustomizations}>
       <BrowserRouter>
         <Switch>
-        <Route path="/Login" component={Login} />
+        <Route path="/CreatePost" component={CreatePost} />
 
           <App />
         </Switch>
